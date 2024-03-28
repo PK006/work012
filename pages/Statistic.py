@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 
 dt=pd.read_csv('./data/apple.csv')
-
+st.write(dt.head(10))
 
 def load_lottieurl(url: str):
     r = requests.get(url)
