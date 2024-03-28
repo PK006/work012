@@ -14,3 +14,11 @@ lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello,key="hello")
 
 st.subheader("การนำเสนอข้อมูลด้วยการจินตทัศน์ข้อมูล")
+
+html_1 = """
+<div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>กราฟแสดงข้อมูลแอปเปิ้ล</h5></center>
+</div>
+"""
+st.markdown(html_1, unsafe_allow_html=True)
+st.markdown("")
