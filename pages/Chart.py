@@ -38,9 +38,9 @@ cl6.write(dt['Ripeness'].sum())
 cl7.write(dt['Acidity'].sum())
 """
 cl1,cl2, cl3 =st.columns(3)
-cl1.write("xxx")
-cl2.write("xxx")
-cl3.write("xxx")
+cl1.write(dt['Size'].sum())
+cl2.write(dt['Weight'].sum())
+cl3.write(dt['Sweetness'].sum())
 
 st.write("กราฟแท่ง")
 a=dt['Size'].sum()
