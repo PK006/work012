@@ -27,7 +27,8 @@ st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
 st.write('ผลรวม')
-cl1,cl2,cl3,cl4.cl5,cl6,cl7=st.columns(7)
+"""
+cl1,cl2,cl3,cl4.cl5,cl6,cl7 = st.columns(7)
 cl1.write(dt['Size'].sum())
 cl2.write(dt['Weight'].sum())
 cl3.write(dt['Sweetness'].sum())
@@ -35,6 +36,11 @@ cl4.write(dt['Crunchiness'].sum())
 cl5.write(dt['Juiciness'].sum())
 cl6.write(dt['Ripeness'].sum())
 cl7.write(dt['Acidity'].sum())
+"""
+cl1,cl2, cl3 =st.columns(3)
+cl1.write("xxx")
+cl2.write("xxx")
+cl3.write("xxx")
 
 st.write("กราฟแท่ง")
 a=dt['Size'].sum()
