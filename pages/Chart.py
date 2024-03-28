@@ -40,9 +40,23 @@ a=dt['Size'].sum()
 b=dt['Weight'].sum()
 c=dt['Sweetness'].sum()
 d=dt['Crunchiness'].sum()
-e=dt['Juiciness'].sum()
-f=dt['Ripeness'].sum()
-g=dt['Acidity'].sum()
-dx=[a,b,c,d,e,f,g]
-cx=pd.DataFrame(dx,index=["Size", "Weight", "Sweetness","Crunchiness","Juiciness","Ripeness","Acidity",])
+
+dx=[a,b,c,d]
+cx=pd.DataFrame(dx,index=["Size", "Weight", "Sweetness","Crunchiness",])
 st.bar_chart(cx)
+
+st.write('ค่าเฉลี่ย')
+cl11,cl12,cl13,cl14=st.columns(4)
+cl11.write(dt['Size'].mean())
+cl12.write(dt['Weight'].mean())
+cl13.write(dt['Sweetness'].mean())
+cl14.write(dt['Crunchiness'].mean())
+
+st.write("Area_Chart")
+a=dt['Size'].mean()
+b=dt['Weight'].mean()
+c=dt['Sweetness'].mean()
+d=dt['Crunchiness'].mean()
+dxt=[a,b,c,d]
+cxx=pd.DataFrame(dxt,index=["Size", "Weight", "Sweetness","Crunchiness"])
+st.area_chart(cxx)
