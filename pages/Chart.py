@@ -37,10 +37,12 @@ cl5.write(dt['Juiciness'].sum())
 cl6.write(dt['Ripeness'].sum())
 cl7.write(dt['Acidity'].sum())
 """
-cl1,cl2, cl3 =st.columns(3)
+cl1,cl2, cl3 ,cl4 ,cl5=st.columns(5)
 cl1.write(dt['Size'].sum())
 cl2.write(dt['Weight'].sum())
 cl3.write(dt['Sweetness'].sum())
+cl4.write(dt['Crunchiness'].sum())
+cl5.write(dt['Juiciness'].sum())
 
 st.write("กราฟแท่ง")
 a=dt['Size'].sum()
