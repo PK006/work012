@@ -4,7 +4,9 @@ from streamlit_lottie import st_lottie_spinner
 import requests
 import pandas as pd
 
- dt=pd.read_csv('./data/apple.csv')
+dt=pd.read_csv('./data/apple.csv')
+
+
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
