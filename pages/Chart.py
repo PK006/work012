@@ -44,6 +44,6 @@ d=dt['Crunchiness'].sum()
 e=dt['Juiciness'].sum()
 f=dt['Ripeness'].sum()
 g=dt['Acidity'].sum()
-dx=[a,b,c,d]
+dx=[a,b,c,d,e,f,g]
 cx=pd.DataFrame(dx,index=["Size", "Weight", "Sweetness","Crunchiness","Juiciness","Ripeness","Acidity",])
 st.bar_chart(cx)
