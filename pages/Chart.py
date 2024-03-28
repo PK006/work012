@@ -60,3 +60,14 @@ d=dt['Crunchiness'].mean()
 dxt=[a,b,c,d]
 cxx=pd.DataFrame(dxt,index=["Size", "Weight", "Sweetness","Crunchiness"])
 st.area_chart(cxx)
+
+st.write('ค่าน้อยที่สุด')
+cl31,cl32,cl33,cl34=st.columns(4)
+cl31.write(dt['Size'].min())
+cl32.write(dt['Weight'].min())
+cl33.write(dt['Sweetness'].min())
+cl34.write(dt['Crunchiness'].min())
+
+st.write("Line_Chart")
+cc=[3,8,1,10]
+st.line_chart(cc)
