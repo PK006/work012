@@ -15,7 +15,7 @@ st_lottie(lottie_hello,key="hello")
 #st.subheader("การประยุกต์ใช้งาน Manchine Learning บนเว็บ")
 html_1 = """
 <div style="background-color:#76D7C4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
-<h3>การประยุกต์ใช้งาน Manchine Learning บนเว็บ<h3>
+<center><h3>การประยุกต์ใช้งาน Manchine Learning บนเว็บ<h3></center>
 <h4>by นายภูรินทร์ ขวัญจิรา</h4>
 <h4>สาขาวิทยาการคอมพิวเตอร์</h4>
 <h4>คณะวิทยาศาสตร์และเทคโนโลยี</h4>
