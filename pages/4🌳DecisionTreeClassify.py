@@ -32,6 +32,8 @@ if st.button("พยากรณ์"):
     elif y_predict2=='Versicolor':
         st.image('./pic/versicolor.jpg')
         st.write(y_predict2)
+    else:
+        st.image('./pic/virginica.jpg')
     st.button("ไม่พยากรณ์")
 else:
     st.button("ไม่พยากรณ์")
