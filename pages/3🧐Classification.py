@@ -63,9 +63,13 @@ import numpy as np
 if st.button("ทำนายผล"):
    # ทำนาย
    #dt = pd.read_csv("./data/breastcancer.csv") 
-    
-   X = dt.iloc[:,1:11]
-   y = dt.Class   
+   cols=['ClumpThickness', 'UniformityofCellSize',
+       'UniformityofCellShape', 'MarginalAdhesion', 'SingleEpithelialCellSize',
+       'BareNuclei', 'BlandChromatin', 'NormalNucleoli', 'Mitoses']
+
+   X = dt[cols]
+   y = dt['Class   ']
+
 
    Knn_model = KNeighborsClassifier(n_neighbors=3)
    Knn_model.fit(X, y)
