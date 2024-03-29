@@ -9,7 +9,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-lottie_url_hello = "https://lottie.host/2c6019aa-3c40-41b7-a0c6-28d0ca625af1/hdJuoEJmoc.json"
+lottie_url_hello = "https://lottie.host/62cff6ba-1ea9-438c-8a00-aed954db87a5/w8RIuxisX4.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello,key="hello")
 st.subheader("การประยุกต์ใช้งาน Manchine Learning บนเว็บ")
