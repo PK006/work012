@@ -14,6 +14,7 @@ st.write(df.head(10))
 
 #st.line_chart(df)
 #st.line_chart(df, x="interest_rate", y="unemployment_rate", color="stock_index_price")
+st.header("กราฟแสดงข้อมูล stock index price")
 st.line_chart(
    df, x="interest_rate", y=["stock_index_price"], color=["#FF0000"]  # Optional
 )
@@ -29,6 +30,15 @@ modelRegress=LinearRegression()
 modelRegress.fit(x_train,y_train)
 x1=st.number_input("กรุณาป้อนข้อมูล interest_rate:")
 x2=st.number_input("กรุณาป้อนข้อมูล unemployment_rate:")
+
+
+html_1 = """
+<div style="background-color:#76D7C4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h4>การพยากรณ์ข้อมูลด้วยเทคนิค Linear Regression</h4></center>
+</div>
+"""
+st.markdown(html_1, unsafe_allow_html=True)
+st.markdown("")
 
 if st.button("พยากรณ์ข้อมูล"):
     x_input=[[x1,x2]]
