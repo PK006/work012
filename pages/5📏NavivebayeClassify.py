@@ -6,6 +6,8 @@ from sklearn.naive_bayes import GaussianNB
 import pandas as pd
 import streamlit as st
 
+
+st.image('./pic/iris01.jpg')
 # โหลดข้อมูล Iris
 df = pd.read_csv("./data/iris.csv")
 X = df.drop('variety',axis=1)
