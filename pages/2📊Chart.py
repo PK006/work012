@@ -12,7 +12,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-lottie_url_hello = "https://lottie.host/71e6e18c-2bab-40bd-9121-bd755b60a778/Ib8ewkFcIq.json"
+lottie_url_hello = "https://lottie.host/e9730a83-d346-4087-b0d7-98b8bf0b467a/qBSW3J4U2g.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello,key="hello")
 
