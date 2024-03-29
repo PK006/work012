@@ -63,7 +63,7 @@ import numpy as np
 if st.button("ทำนายผล"):
    # ทำนาย
    #dt = pd.read_csv("./data/breastcancer.csv") 
-
+    
    X = dt.iloc[:,1:11]
    y = dt.Class   
 
