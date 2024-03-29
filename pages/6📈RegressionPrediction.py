@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score,mean_squared_error
 
-st.title("Index Price Prediction")
-st.header("Index Price Prediction from NPRU")
+st.title("การพยากรณ์ข้อมูลด้วยเทคนิค Linear Regression")
+st.header("การพยากรณ์ข้อมูล stock index price")
 
 df=pd.read_csv('./data/stock_index_price.csv')
 st.write(df.head(10))
