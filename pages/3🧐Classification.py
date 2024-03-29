@@ -19,7 +19,7 @@ st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
 import pandas as pd
-dt=pd.read_csv('./data/breastcancer.csv')
+dt=pd.read_csv('./data/breastcancer2.csv')
 st.write(dt.head(10))
 dt1 = dt['ClumpThickness'].mean()
 dt2 = dt['UniformityofCellSize'].mean()
