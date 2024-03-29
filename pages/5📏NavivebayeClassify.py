@@ -11,6 +11,13 @@ df = pd.read_csv("./data/iris.csv")
 X = df.drop('variety',axis=1)
 y = df['variety']
 
+html_1 = """
+<div style="background-color:#76D7C4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h4>การทำนายข้อมูลดอกไม้ด้วยเทคนิค Naive Bayed</h4></center>
+</div>
+"""
+st.markdown(html_1, unsafe_allow_html=True)
+st.markdown("")
 # แบ่งข้อมูลเป็นชุดฝึกและชุดทดสอบ
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
