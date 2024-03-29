@@ -24,6 +24,6 @@ st.page_link("pages/1⏲️Statistic.py", label="การนำเสนอข�
 st.page_link("pages/2📊Chart.py", label="การนำเสนอข้อมูลด้วยการจินตทัศน์ข้อมูล", icon="2️⃣", disabled=False)
 st.page_link("pages/3🧐KNNClassify.py", label="การจำแนกข้อมูลด้วยเทคนิค K-nn", icon="3️⃣", disabled=False)
 st.page_link("pages/4🌳DecisionTreeClassify.py", label="การจำแนกข้อมูลด้วยเทคนิค DecisionTree", icon="4️⃣", disabled=False)
-st.page_link("pages/5🐉NavivebayeClassify.py", label="การจำแนกข้อมูลด้วยเทคนิค NaiveBayes", icon="5️⃣", disabled=False)
+st.page_link("pages/5📏NavivebayeClassify.py", label="การจำแนกข้อมูลด้วยเทคนิค NaiveBayes", icon="5️⃣", disabled=False)
 st.page_link("pages/6📈RegressionPrediction.py", label="การจำแนกข้อมูลด้วยเทคนิค Regression", icon="6️⃣", disabled=False)
 st.page_link("http://www.google.com", label="Google", icon="🌎")
