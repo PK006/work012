@@ -16,10 +16,10 @@ st_lottie(lottie_hello,key="hello")
 html_1 = """
 <div style="background-color:#92FAD3;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h3>การประยุกต์ใช้งาน Manchine Learning บนเว็บ<h3></center>
-<h4>by นายภูรินทร์ ขวัญจิรา</h4>
-<h4>สาขาวิทยาการคอมพิวเตอร์</h4>
-<h4>คณะวิทยาศาสตร์และเทคโนโลยี</h4>
-<h4>มหาวิทยาลัยราชภัฏนครปฐม</h4>
+<h5>by นายภูรินทร์ ขวัญจิรา</h5>
+<h5>สาขาวิทยาการคอมพิวเตอร์</h5>
+<h5>คณะวิทยาศาสตร์และเทคโนโลยี</h5>
+<h5>มหาวิทยาลัยราชภัฏนครปฐม</h5>
 </div>
 """
 st.markdown(html_1, unsafe_allow_html=True)
