@@ -34,6 +34,7 @@ if st.button("พยากรณ์"):
         st.write(y_predict2)
     else:
         st.image('./pic/virginica.jpg')
+        st.write(y_predict2)
     st.button("ไม่พยากรณ์")
 else:
     st.button("ไม่พยากรณ์")
