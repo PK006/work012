@@ -17,9 +17,9 @@ html_1 = """
 <div style="background-color:#76D7C4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <h3>การประยุกต์ใช้งาน Manchine Learning บนเว็บ<h3>
 <h4>by นายภูรินทร์ ขวัญจิรา</h4>
-<br><h4>สาขาวิทยาการคอมพิวเตอร์</h4>
-<br><h4>คณะวิทยาศาสตร์และเทคโนโลยี</h4>
-<br><h4>มหาวิทยาลัยราชภัฏนครปฐม</h4>
+<h4>สาขาวิทยาการคอมพิวเตอร์</h4>
+<h4>คณะวิทยาศาสตร์และเทคโนโลยี</h4>
+<h4>มหาวิทยาลัยราชภัฏนครปฐม</h4>
 </div>
 """
 st.markdown(html_1, unsafe_allow_html=True)
