@@ -13,6 +13,16 @@ lottie_url_hello = "https://lottie.host/62cff6ba-1ea9-438c-8a00-aed954db87a5/w8R
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello,key="hello")
 st.subheader("การประยุกต์ใช้งาน Manchine Learning บนเว็บ")
+html_1 = """
+<div style="background-color:#76D7C4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<h4>by นายภูรินทร์ ขวัญจิรา</h4>
+<br><h4>สาขาวิทยาการคอมพิวเตอร์</h4>
+<br><h4>คณะวิทยาศาสตร์และเทคโนโลยี</h4>
+<br><h4>มหาวิทยาลัยราชภัฏนครปฐม</h4>
+</div>
+"""
+st.markdown(html_1, unsafe_allow_html=True)
+st.markdown("")
 st.subheader("by นายภูรินทร์ ขวัญจิรา")
 st.subheader("สาขาวิทยาการคอมพิวเตอร์")
 st.subheader("คณะวิทยาศาสตร์และเทคโนโลยี")
